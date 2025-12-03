@@ -2,6 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from pydantic_settings import BaseSettings
 
+
+# TODO: need to set up database migrations and tables
 class Settings(BaseSettings):
     SUPABASE_DB_URL: str
 
