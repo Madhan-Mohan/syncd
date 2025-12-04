@@ -4,6 +4,7 @@ from pydantic_settings import BaseSettings
 
 
 # TODO: need to set up database migrations and tables
+# Refer to https://docs.sqlalchemy.org/en/20/core/metadata.html#metadata-and-table-objects
 class Settings(BaseSettings):
     SUPABASE_DB_URL: str
 
